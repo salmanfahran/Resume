@@ -1,0 +1,254 @@
+@media (min-width: 1201px) {
+.title-background {
+  background-image: url(./img/640445.jpg); 
+  background-size: cover; /* Ensures entire image is visible */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center;   
+   /* Keeps image fixed during scroll */ 
+}
+.footer-background {
+  background-image: url(./img/640445.jpg); 
+  background-size: cover; /* Ensures entire image is visible */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center;   
+}
+#title {
+    text-align: left; 
+    display:grid;
+    grid-template-columns: 1fr 1fr;  
+    width: 100%;
+    padding: 0% 0%;
+}
+.fruktur-regular {
+  font-family: "Fruktur", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fruktur-regular-italic {
+  font-family: "Fruktur", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#hero {
+    margin-top: 100px;
+}
+.sgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px; /* use px, not % */
+  height: 300px;
+  width: auto;
+  margin: auto;
+}
+.slgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px; /* use px, not % */
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  padding: 0 30%;
+}
+.slogo {
+    font-size: 1.2rem;
+    
+}
+.poiret-one-regular-bold {
+  font-family: "Poiret One", sans-serif;
+  font-weight:600;
+  font-style: normal;
+}
+.poiret-one-regular-bolder {
+  font-family: "Poiret One", sans-serif;
+  font-size: 13px;
+  font-weight:600;
+  font-style:unset;
+}
+.egrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1.5fr);
+  grid-template-rows: repeat(3, 1.5fr);
+  gap: 30px; /* use px, not % */
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  padding: 0 10%;
+}
+.wgrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 12px; /* use px, not % */
+  height: auto;
+  width: 75%;
+  margin: auto;
+}
+.outfit-company {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  text-align: left;
+}
+.poiret-one-regular-company {
+  font-family: "Poiret One", sans-serif;
+  font-size: 22px;
+  font-weight:800;
+  font-style:unset;
+}
+.poiret-one-regular-des {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 13px;
+}
+.hcontainer {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 50px 10%;
+    justify-content: center; /* Horizontal */
+     align-items: center;
+}
+.imglan {
+  height: 200px; 
+  width: 200px;
+}
+}
+
+
+@media (max-width: 1200px) {
+.title-background {
+  background-image: url(./img/640445.jpg); 
+  background-size: cover; /* Ensures entire image is visible */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center;   
+  width: 100vh;
+}
+
+.fruktur-regular {
+  font-family: "Fruktur", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fruktur-regular-italic {
+  font-family: "Fruktur", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#title {
+    text-align: left; 
+    display:grid;  
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding: 0% 0%;
+}
+#hero {
+    margin-top: 100px;
+}    
+.sgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1px; /* use px, not % */
+  height: 300px;
+  margin-top: 10% ;
+  width: 100vh;
+}
+.slogo {
+    font-size: 1.2rem;
+    
+}
+.poiret-one-regular-bold {
+  font-family: "Poiret One", sans-serif;
+  font-weight:600;
+  font-style: normal;
+}
+.poiret-one-regular-bolder {
+  font-family: "Poiret One", sans-serif;
+  font-size: 13px;
+  font-weight:600;
+  font-style:unset;
+}
+.egrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1.5fr);
+  grid-template-rows: repeat(3, 1.5fr);
+  gap: 30px; /* use px, not % */
+  height: 200px;
+  width: 100vh;
+  margin: auto;
+}
+.wgrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 12px; /* use px, not % */
+  height: auto;
+  width: 100vh;
+  margin: auto;
+}
+.outfit-company {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  text-align: left;
+}
+.poiret-one-regular-company {
+  font-family: "Poiret One", sans-serif;
+  font-size: 22px;
+  font-weight:800;
+  font-style:unset;
+}
+.poiret-one-regular-des {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 13px;
+}
+.hcontainer {
+    display: grid;
+    grid-template-columns: 1fr  15fr;
+    padding: 10px 10%;
+    justify-content: center; /* Horizontal */
+    align-items: center;
+    width: 100vh;
+    gap: 20px;
+}
+.smgrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; /* use px, not % */
+  height: 300px;
+  width: 100vh;
+  margin: auto;
+  padding-left: 30%;
+}
+.imglan {
+  height: 100px; 
+  width: 100px;
+}
+.footer-background {
+  background-image: url(./img/640445.jpg); 
+  background-size: cover; /* Ensures entire image is visible */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center;   
+  width: 100vh;
+
+}
+}
